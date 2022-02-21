@@ -15,6 +15,7 @@ namespace ConsoleApp2
         }
         public void CechConnection()
         {
+            int x = 0;
             SqlCommand comman = new SqlCommand();
             comman.Connection = sql;
             comman.CommandText = "insert into books values('vasya','vadym','1111')";
